@@ -7,7 +7,7 @@ inhibit_all_warnings!
 def thirdparty_pods
   pod 'SDWebImage'
   pod 'SDWebImage/WebP'
-  pod 'libwebp', :git => 'http://192.168.30.6/shengming.han/libwebp.git'
+  pod 'libwebp', '~> 0.5.1'
 end
 
 target 'WebKitSupportURLProtocol' do
