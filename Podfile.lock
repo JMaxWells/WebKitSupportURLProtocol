@@ -1,0 +1,53 @@
+PODS:
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SDWebImage/WebP (4.0.0):
+    - libwebp
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - libwebp (from `http://192.168.30.6/shengming.han/libwebp.git`)
+  - SDWebImage
+  - SDWebImage/WebP
+
+EXTERNAL SOURCES:
+  libwebp:
+    :git: http://192.168.30.6/shengming.han/libwebp.git
+
+CHECKOUT OPTIONS:
+  libwebp:
+    :commit: 2df5e83419e6392835f3d08ecbeba9a98fecf069
+    :git: http://192.168.30.6/shengming.han/libwebp.git
+
+SPEC CHECKSUMS:
+  libwebp: 9f950a206a018d2f5842adadd36daba71bd517fe
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 1fb3b45317561f28eae119fe9487b7d444b976c5
+
+COCOAPODS: 1.2.0.beta.3
